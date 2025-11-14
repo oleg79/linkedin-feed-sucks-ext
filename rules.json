@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.linkedin.com/jobs/"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://www.linkedin.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+    {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.linkedin.com/jobs/"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://www.linkedin.com/feed/",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
