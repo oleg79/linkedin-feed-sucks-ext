@@ -1,8 +1,4 @@
 document
-    .querySelector('main[aria-label="Main Feed"]')
+    .querySelector('.global-nav__primary-item')
     ?.remove();
 
-document
-    .querySelector('aside[aria-label="Add to your feed"]')
-    ?.classList
-    .remove('scaffold-layout__aside');
