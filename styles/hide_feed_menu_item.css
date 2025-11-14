@@ -1,0 +1,5 @@
+.global-nav__primary-item:nth-of-type(1),
+.global-nav__primary-item:nth-of-type(2)
+{
+    display: none;
+}
